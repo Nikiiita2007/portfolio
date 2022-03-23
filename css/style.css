@@ -1,6 +1,3 @@
-* {
-    background-color: #a89;
-}
 
 .container{
 min-width: 768px;
@@ -33,4 +30,48 @@ html{
 }
 *, *::before, *::after{
     box-sizing: inherit;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body{
+font-family: 'Inter';
+font-style: normal;
+font-size: 20px;
+line-height: 1.2;
+font-weight: normal;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item{
+    margin-right: 30px;
+}
+.header_link{
+    font-size: 20px;
+    line-height: 50px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active{
+    color: #bdae82;
+}
+
+.intro{
+    min-height: 100hv;
+    background: url(../img/svg/bg.jpg) no-repeat center;
+    background-size: cover;
 }
