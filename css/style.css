@@ -1,0 +1,36 @@
+* {
+    background-color: #a89;
+}
+
+.container{
+min-width: 768px;
+}
+
+.header {
+max-width: 1440px;
+height: 90px;
+}
+
+.logo{
+padding: 20px 20px;
+} 
+
+@font-face {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+src: url('../fonts/inter-v8-latin-700.eot');
+src: local(''),
+url('../fonts/inter-v8-latin-700.eot?#iefix') format('embedded-opentype'),
+url('../fonts/inter-v8-latin-700.woff2') format('woff2'),
+url('../fonts/inter-v8-latin-700.woff') format('woff'),
+url('../fonts/inter-v8-latin-700.ttf') format('truetype'),
+url('../fonts/inter-v8-latin-700.svg#Inter') format('svg');
+}
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
