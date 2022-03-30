@@ -71,7 +71,7 @@ font-weight: normal;
 }
 
 .intro{
-    min-height: 100hv;
+    min-height: 100vh;
     background: url(../img/svg/bg.jpg) no-repeat center;
     background-size: cover;
 }
